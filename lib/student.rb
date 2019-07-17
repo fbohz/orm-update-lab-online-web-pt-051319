@@ -24,6 +24,14 @@ class Student
     sql = "DROP TABLE IF EXISTS students"
     DB[:conn].execute(sql) 
   end
+  
+  def update
+    sql = <<-SQL
+     UPDATE students
+     SET 
+    SQL
+    
+  end   
 
   def save
     if self.id
