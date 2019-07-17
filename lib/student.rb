@@ -29,7 +29,9 @@ class Student
     if self.id
       self.update
     else 
-      sql = 
+      sql = <<-SQL
+       INSERT INTO students (name)
+      SQL
       
     end   
   end   
