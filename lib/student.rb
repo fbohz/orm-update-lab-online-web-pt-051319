@@ -26,6 +26,11 @@ class Student
   end
 
   def save
-    
+    if self.id
+      self.update
+    else 
+      sql = 
+      
+    end   
   end   
 end
