@@ -29,7 +29,7 @@ class Student
     sql = <<-SQL
      UPDATE students
      SET name = ?, 
-     grade = ?
+     grade = ?,
      WHERE id = ?
     SQL
     
